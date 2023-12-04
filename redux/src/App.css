@@ -5,3 +5,8 @@
   text-decoration: none;
   list-style: none;
 }
+.all{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}

@@ -6,6 +6,7 @@ function Calculator() {
     const counterValue = useSelector((state) => state.counter.value)
     return (
         <div>
+            <h3>Calculator:</h3>
             <p>Counter Value: {counterValue}</p>
             <button onClick={() => dispatch(increment(4))}>+4</button>
             <button onClick={() => dispatch(decrement(4))}>-4</button>
